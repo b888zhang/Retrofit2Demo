@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zb.retrofit2demo.MainActivity">
+
+    <Button
+        android:id="@+id/bt_get"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="get"
+        />
+
+    <Button
+        android:id="@+id/bt_post"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="post"
+        />
+
+    <Button
+        android:id="@+id/bt_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="上传文件"
+        />
+
+    <Button
+        android:id="@+id/bt_xia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="下载"
+        />
+
+
+
+
+
+</LinearLayout>
